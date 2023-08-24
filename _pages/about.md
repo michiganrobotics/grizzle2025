@@ -19,9 +19,9 @@ carousels:
     - image: /images/slider/robotics-bldg-web.jpg
 ---
   {% include carousel.html height="50" unit="%" duration="3" number="1" %}
-Jessy W. Grizzle is a (full) Professor in the [Control Systems Laboratory](http://www.eecs.umich.edu/eecs/research/area.html?r_id=10) of the [Electrical Engineering and Computer Science Department](http://www.eecs.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](http://www.ci.ann-arbor.mi.us/), [Michigan](https://www.michigan.gov/). He is the [Director](http://robotics.umich.edu/about/#director) of [Michigan Robotics](http://robotics.umich.edu/) and a member of the ECE [Systems Laboratory](http://www.eecs.umich.edu/systems/) and the  [Robotics and Computer Vision Area](http://www.eecs.umich.edu/eecs/research/area.html?r_id=45). He has a courtesy appointment in [Mechancial Engineering](http://me.engin.umich.edu/).
+Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https://www.biped.solutions) of the [Robotics Department](http://robotics.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](http://www.ci.ann-arbor.mi.us/), [Michigan](https://www.michigan.gov/).He has a courtesy appointment in [Mechancial Engineering](http://me.engin.umich.edu/).
 
-The activity at [Michigan in control systems](https://controls.engin.umich.edu/) is very interdisciplinary and moves easily across traditional departmental boundaries. We maintain a very active [College of Engineering Control Seminar Series](https://controls.engin.umich.edu/seminars/). [Additional EECS Control Lab](control-lab.html) information is available here. For more fun stuff, see the [EECS YouTube Home Page](http://www.youtube.com/user/EECSatUM).
+The activity at [Michigan in control systems](https://controls.engin.umich.edu/) is very interdisciplinary and moves easily across traditional departmental boundaries. We maintain a very active [College of Engineering Control Seminar Series](https://controls.engin.umich.edu/seminars/).
 
 * * *
 
@@ -29,7 +29,7 @@ The activity at [Michigan in control systems](https://controls.engin.umich.edu/
 *   [ROB 101 Computational Linear Algebra: Math at the Scale of Life](https://web.eecs.umich.edu/u/g/grizzle/public_html/papers/ROB_101_ComputationalLinearAlgebra_Grizzle_2020_12_15.pdf)
 *   [New Open-source Course for Freshmen: Computational Linear Algebra](https://robotics.umich.edu/academic-program/course-offerings/rob101/)
 *   [Curriculum Vitae](cv.pdf) and [IEEE-Style BIO](bio.pdf)
-*   [Grizzle\`s Pubs at Google Scholar](http://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ)
+*   [Grizzle's Pubs at Google Scholar](http://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ)
 *   [YouTube Channel](http://www.youtube.com/user/DynamicLegLocomotion) (Robot Videos).
 *   [Our GitHub site](https://github.com/UMich-BipedLab) Open-source Software for Estimation and Control
 *   [WebCam](http://umaec.umich.edu/projects/major-projects/robotics-laboratory/web-camera/) of the **Robotics Institute:** $75M, 143,000 sq. ft (13,285 m^2)
