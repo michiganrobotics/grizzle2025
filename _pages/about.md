@@ -6,8 +6,19 @@ author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+carousels:
+  - images: 
+    - image: /images/slider/MARLO-wavefield-760.jpg
+    - image: /images/slider/cassie-marlo760x400.jpg
+    - image: /images/slider/CassieSmoke3760.jpg
+    - image: /images/slider/kids-760x400.jpg
+    - image: /images/slider/wandercraft-team.jpg
+    - image: /images/slider/AllTheRobotsSmaller.png
+    - image: /images/slider/CassieSmoke6.png
+    - image: /images/slider/Cassie-Spin.jpg
+    - image: /images/slider/robotics-bldg-web.jpg
 ---
-
+  {% include carousel.html height="50" unit="%" duration="3" number="1" %}
 Jessy W. Grizzle is a (full) Professor in the [Control Systems Laboratory](http://www.eecs.umich.edu/eecs/research/area.html?r_id=10) of the [Electrical Engineering and Computer Science Department](http://www.eecs.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](http://www.ci.ann-arbor.mi.us/), [Michigan](https://www.michigan.gov/). He is the [Director](http://robotics.umich.edu/about/#director) of [Michigan Robotics](http://robotics.umich.edu/) and a member of the ECE [Systems Laboratory](http://www.eecs.umich.edu/systems/) and the  [Robotics and Computer Vision Area](http://www.eecs.umich.edu/eecs/research/area.html?r_id=45). He has a courtesy appointment in [Mechancial Engineering](http://me.engin.umich.edu/).
 
 The activity at [Michigan in control systems](https://controls.engin.umich.edu/) is very interdisciplinary and moves easily across traditional departmental boundaries. We maintain a very active [College of Engineering Control Seminar Series](https://controls.engin.umich.edu/seminars/). [Additional EECS Control Lab](control-lab.html) information is available here. For more fun stuff, see the [EECS YouTube Home Page](http://www.youtube.com/user/EECSatUM).
