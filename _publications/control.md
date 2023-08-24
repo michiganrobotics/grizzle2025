@@ -4,8 +4,6 @@ collection: publications
 permalink: /publications/control
 ---
 
-==========================
-
 **Remember!** These electronic versions may differ from the final published papers; please obtain the originals if you wish to cite the paper.
 
 * * *

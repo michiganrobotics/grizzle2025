@@ -16,7 +16,7 @@ I have classified my papers according to the various areas in which I work. If a
 *   [Papers on nonlinear control theory](control.html)
 *   [Papers on semiconductor manufacturing](semiconductor.html)
 *   [Models coded in MATLAB](matlab.html)
-*   Book: [Feedback Control of Dynamic Bipedal Robot Locomotion](files/Westervelt_biped_control_book_15_May_2007.pdf) Taylor & Francis, June 2007, 503 pages. **The book is now available [for free download](files/Westervelt_biped_control_book_15_May_2007.pdf)**.
+*   Book: [Feedback Control of Dynamic Bipedal Robot Locomotion](/files/Westervelt_biped_control_book_15_May_2007.pdf) Taylor & Francis, June 2007, 503 pages. **The book is now available [for free download](/files/Westervelt_biped_control_book_15_May_2007.pdf)**.
 *   [Grizzle's Pubs at Google Scholar](https://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ) (another way to find a listing of my publications)
 *   See also [IEEE Xplore](http://ieeexplore.ieee.org/Xplore/dynhome.jsp), where the majority of my publications are available.
 
