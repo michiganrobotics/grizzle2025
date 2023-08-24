@@ -39,3 +39,18 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
+
+.logo {
+	img{
+		width:50%;
+		border-radius: 0;
+		margin-top: .5em;
+		margin-bottom: .5em;
+		display: inline;
+	
+		@media (min-width: 57.8125em){
+			width: 180px;
+			margin-bottom: 0;
+		}
+	}
+}
