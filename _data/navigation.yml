@@ -3,20 +3,14 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Talks"
-    url: /talks/    
-
   - title: "Teaching"
-    url: /teaching/    
+    url: https://robotics.umich.edu/academic-program/course-offerings/rob101/    
     
-  - title: "Portfolio"
-    url: /portfolio/
+  - title: "Robot Videos"
+    url: #
         
-  - title: "Blog Posts"
-    url: /year-archive/
+  - title: "Photos"
+    url: #
     
-  - title: "CV"
-    url: /cv/
-    
-  - title: "Guide"
-    url: /markdown/
+  - title: "PhDs & Post Docs"
+    url: #
