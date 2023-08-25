@@ -25,7 +25,7 @@ In mid-July 2002 we began tests on an experimental biped called [RABBIT](http:/
 
 **Copyright:** These videos belong to me, my colleagues, and/or my students. You may use them for your own ends as long as you cite their source.
 
-1.  Experiment on running conducted 24 September 2004: [RABBIT RUNS!](/initial-rabbit-experiment)
+1.  Experiment on running conducted 24 September 2004: [RABBIT RUNS!](/robot-videos/rabbit/initial-rabbit-experiment)
 2.  Extended walking conducted in September 2004: [Extended Walking(26MB)](http://websites.umich.edu/~grizzlefacultyafs/vids/ExtendedWalking23Sept2004.wmv) (Format is .mwv so it will only work on a PC.) **Note:** Robot's safety provided by a cable.
 3.  Extended walking under a perturbation conducted in September 2004: [Extended Perurbation(20MB)](http://websites.umich.edu/~grizzlefacultyafs/vids/Extended_Perturbation_23Sept2004.wmv) (Format is .mwv so it will only work on a PC.) **Note:** The robot's mass is 32 Kg; a 5 Kg mass has been attached to the torso with no change to the control algorithm, which is the same as that used in the above experiment.
 4.  Extensive walking experiments ran in early March, 2003. [(Eric's Movie Page).](http://websites.umich.edu/~grizzlefacultyafs/westervelt_thesis/movies/) **Note:** The wheels are to prevent damage if the robot falls. They are actually a perturbation to the system, not a support. If you look closely, you can see that the pipe connecting the wheels to the ground is a prismatic joint. The wheels are not supporting the bar at all, and consequently will not support the robot until the hips fall below a certain point that is not attained in normal walking.

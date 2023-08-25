@@ -14,6 +14,6 @@ author_profile: true
 
 [**Videos of RABBIT**](rabbit.html), a bipedal robot on which we performed extensive analysis and experiments from 1999 through 2004. RABBIT is a rigid, five-link, four-actuator, planar bipedal robot based in Grenoble, France. It was conceived for the study of underactuation in walking. This robot inspired the PI and colleagues to develop a novel paradigm for control law design which breaks cleanly away from the flat-footed (fully-actuated) assumption of previous work, and yet combines analytical tractability with the ability to treat realistic models.
 
-![Control textbook](/images/vids-2.png){: .align-right}**Book on Control of Bipeds:** [Feedback Control of Dynamic Bipedal Robot Locomotion](http://web.eecs.umich.edu/faculty/grizzle/web-book.html), Taylor & Francis, CRC Press, June 2007, 503 pages. Treats advanced issues and covers all the basics too! Professionals and graduate students alike will find the book accessible and useful.
+![Control textbook](/images/vids-2.png){: .align-right}**Book on Control of Bipeds:** [Feedback Control of Dynamic Bipedal Robot Locomotion](/publications/biped-book), Taylor & Francis, CRC Press, June 2007, 503 pages. Treats advanced issues and covers all the basics too! Professionals and graduate students alike will find the book accessible and useful.
 
-[**Publications**](publications-robotics.html) and [**publicity**](publicity.html) on bipedal robots.
+[**Publications**](publications-robotics.html) on bipedal robots.

@@ -10,7 +10,7 @@ main:
     url: /robot-videos/
         
   - title: "Photos"
-    url: #
+    url: /photos/
     
   - title: "PhDs & Post Docs"
-    url: #
+    url: /phds/
