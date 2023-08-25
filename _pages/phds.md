@@ -39,7 +39,7 @@ Doctoral Students Graduated as Primary Advisor
 10.  Craig Garvin, \`\`Radio Frequency Based Sensors for Diagnostics and Control of Plasma-Assisted Mirco Manufacturing,'' 2000 [Craig.Garvin@inficon.com](mailto: Craig.Garvin@inficon.com)
 11.  Jun-Mo Kang, \`\`Advanced Control for Fuel Economy and Emissions Improvement in Spark Ignition Engines, 2000 [jun-mo.kang@gm.com](mailto: jun-mo.kang@gm.com)
 12.  Hyun-Mog Park, \`\`Real-Time Feedback Control and Fault Detection in Deep-Submicron Plasma Etch,'' 2000 [hyunmog.park@samsung.com](mailto: hyunmog.park@samsung.com)
-13.  [Eric Westervelt](http://www.dynamicbipedcontrol.org/) , \`\`Toward a Coherent Framework for the Control of Planar Biped Locomotion,'' June 13, 2003 \[Co-advisor:[Daniel Koditschek](http://www.seas.upenn.edu/~kod/)\] [, westervelt.4@gmail.com](mailto:westervelt.4@gmail.com>)
+13.  [Eric Westervelt](http://www.dynamicbipedcontrol.org/) , \`\`Toward a Coherent Framework for the Control of Planar Biped Locomotion,'' June 13, 2003 \[Co-advisor:[Daniel Koditschek](http://www.seas.upenn.edu/~kod/)\] [, westervelt.4@gmail.com](mailto:westervelt.4@gmail.com>) 
 14.  Junho Choi \`\`Model-based Control and Analysis of Anthropomorphic Walking,'' 2005, [junhochoi@kist.re.kr](mailto: junhochoi@kist.re.kr)
 15.  Edward Dean Tate, Jr., \`\`Techniques for Hybrid Electric Vehicle Controller Synthesis'' 2006 \[Co-advisor: [Huei Peng](http://www-personal.engin.umich.edu/~hpeng/)\] [ed.d.tate@gm.com](mailto: ed.d.tate@gm.com)
 16.  Ben Morris \`\`Stabilizing Highly Dynamic Locomotion in Planar Bipedal Robots with Dimension Reducing Control,'' 2007, [benjamin.james.morris@gmail.com](mailto: benjamin.james.morris@gmail.com)
