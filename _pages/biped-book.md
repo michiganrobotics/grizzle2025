@@ -5,7 +5,7 @@ permalink: /publications/biped-book
 author_profile: true
 ---
 
-![Feedback Control of Dynamic Bipedal Robot Locomotion by E. R. Westervelt, J. W. Grizzle, C. Chevallereau, J.-H. Choi, and B. Morris](images/biped_book_banner.gif)
+![Feedback Control of Dynamic Bipedal Robot Locomotion by E. R. Westervelt, J. W. Grizzle, C. Chevallereau, J.-H. Choi, and B. Morris](/images/biped_book_banner.gif)
 
 
  [Videos](#videos) | [MATLAB Code](#code) | [Errata](#errata) 

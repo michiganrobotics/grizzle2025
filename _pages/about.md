@@ -19,7 +19,7 @@ carousels:
     - image: /images/slider/robotics-bldg-web.jpg
 ---
   {% include carousel.html height="50" unit="%" duration="3" number="1" %}
-Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https://www.biped.solutions) of the [Robotics Department](http://robotics.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](http://www.ci.ann-arbor.mi.us/), [Michigan](https://www.michigan.gov/). 
+Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https://www.biped.solutions) of the [Robotics Department](http://robotics.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](https://www.a2gov.org), [Michigan](https://www.michigan.gov/). 
 
 
 The activity at [Michigan in control systems](https://controls.engin.umich.edu/) is very interdisciplinary and moves easily across traditional departmental boundaries. We maintain a very active [College of Engineering Control Seminar Series](https://controls.engin.umich.edu/seminars/).
@@ -29,12 +29,11 @@ The activity at [Michigan in control systems](https://controls.engin.umich.edu/
 *   [Research Homepage](https://www.biped.solutions/)
 *   [ROB 101 Computational Linear Algebra: Math at the Scale of Life](https://web.eecs.umich.edu/u/g/grizzle/public_html/papers/ROB_101_ComputationalLinearAlgebra_Grizzle_2020_12_15.pdf)
 *   [New Open-source Course for Freshmen: Computational Linear Algebra](https://robotics.umich.edu/academic-program/course-offerings/rob101/)
-*   [Curriculum Vitae](cv.pdf) and [IEEE-Style BIO](bio.pdf)
+*   [Curriculum Vitae](/files/cv.pdf) and [IEEE-Style BIO](/files/bio.pdf)
 *   [Grizzle's Pubs at Google Scholar](http://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ)
 *   [YouTube Channel](http://www.youtube.com/user/DynamicLegLocomotion) (Robot Videos).
 *   [Our GitHub site](https://github.com/UMich-BipedLab) Open-source Software for Estimation and Control
-*   [WebCam](http://umaec.umich.edu/projects/major-projects/robotics-laboratory/web-camera/) of the **Robotics Institute:** $75M, 143,000 sq. ft (13,285 m^2)
-*   [Fly Through](https://youtu.be/G3ei0wsv9d8) of the **Robotics Institute:**
+*   [The home of Michigan Robotics](https://robotics.umich.edu/about/ford-motor-company-robotics-building/), the Ford Motor Company Robotics Building
 *   [Maps of Campus, and Driving Directions.](http://www.umich.edu/~info/maps.html)
 
 * * *
@@ -43,7 +42,7 @@ Our newest [robot](http://eecs.umich.edu/eecs/about/articles/2017/new-generation
 
 * * *
 
-Book: [Feedback Control of Dynamic Bipedal Robot Locomotion](web-book.html) co-authored with Eric R. Westervelt, Christine Chevallereau, Jun-Ho Choi, and Benjamin Morris, published by Taylor & Francis in June, 2007, **is available for free  [download](papers/Westervelt_biped_control_book_15_May_2007.pdf)**. It treats virtual constraints and hybrid zero dynamics for the creation of asymptotically stable periodic motions in hybrid systems. I would also suggest the following papers that significantly extend these methods: [Machine Learning](https://arxiv.org/abs/1711.02223), [Robust Optimization](http://journals.sagepub.com/doi/abs/10.1177/0278364917708249), and [Bilinear Matrix Inequalities (BMI)](http://journals.sagepub.com/doi/abs/10.1177/0278364915593400), and the excellent [2018 HZD Review paper by Ames and Poulakakis](http://ames.caltech.edu/HZD_bookchapter.pdf), as well as these survey works: [Book Chapter In: Goswami A., Vadakkepat P. (eds) Humanoid Robotics: A Reference. Springer, Dordrecht](https://arxiv.org/abs/1706.01127) and [2015 Survey on HZD in Automatica](https://www.sciencedirect.com/science/article/pii/S0005109814001654)..
+Book: [Feedback Control of Dynamic Bipedal Robot Locomotion](https://grizzle.robotics.umich.edu/publications/biped-book) co-authored with Eric R. Westervelt, Christine Chevallereau, Jun-Ho Choi, and Benjamin Morris, published by Taylor & Francis in June, 2007, **is available for free  [download](/files/Westervelt_biped_control_book_15_May_2007.pdf)**. It treats virtual constraints and hybrid zero dynamics for the creation of asymptotically stable periodic motions in hybrid systems. I would also suggest the following papers that significantly extend these methods: [Machine Learning](https://arxiv.org/abs/1711.02223), [Robust Optimization](http://journals.sagepub.com/doi/abs/10.1177/0278364917708249), and [Bilinear Matrix Inequalities (BMI)](http://journals.sagepub.com/doi/abs/10.1177/0278364915593400), and the excellent [2018 HZD Review paper by Ames and Poulakakis](http://ames.caltech.edu/HZD_bookchapter.pdf), as well as these survey works: [Book Chapter In: Goswami A., Vadakkepat P. (eds) Humanoid Robotics: A Reference. Springer, Dordrecht](https://arxiv.org/abs/1706.01127) and [2015 Survey on HZD in Automatica](https://www.sciencedirect.com/science/article/pii/S0005109814001654)..
 
 * * *
 
