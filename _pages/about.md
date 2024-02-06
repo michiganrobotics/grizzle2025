@@ -1,7 +1,7 @@
 ---
 permalink: /
 title: "Jessy Grizzle"
-excerpt: "About me"
+excerpt: "Professor Jessy Grizzle is a professor in the Robotics Department at the University of Michigan."
 author_profile: true
 redirect_from: 
   - /about/
