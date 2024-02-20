@@ -5,15 +5,7 @@ excerpt: "Members of the lab"
 author_profile: true
 
 ---
-Doctoral Students Supervising Currently
-=======================================
 
-1.  Omar Harib, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
-2.  William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision,"  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra)
-3.  Yukai Gong, \`\`Legged Locomotion: Cassie (Go) Blue," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
-4.  Eva Mungai, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
-5.  Bruce JK Huang , \`\`Robot Vision for Legged Locomotion: Cassie Blue," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
-6.  Grant Gibson, \`\`Legged Locomotion: Cassie (Go) Blue," [gg2nj@virginia.edu](mailto:grant gibson <gg2nj@virginia.edu>)
 
 Post-Docs
 =========
@@ -53,6 +45,13 @@ Doctoral Students Graduated as Primary Advisor
 24.  [Yuxiao Chen](http://www-personal.umich.edu/~chenyx/), \`\`Correct-by-construction control synthesis for systems with disturbance and uncertainty," 2018, [chenyx@umich.edu](mailto:chenyx@umich.edu) \[Co-Advised with Huei Peng\]
 25.  [Xingye (Dennis) Da](https://scholar.google.com/citations?user=5lwj5vIAAAAJ&hl=en), \`\`Trajectory Optimization and Machine Learning to Design Feedback Controllers for Bipedal Robots with Provable Stability," 2018, [xda@umich.edu](mailto:xda@umich.edu)
 26.  Ross Hartley [Google Scholar](https://scholar.google.com/citations?hl=en&user=qQPgGpsAAAAJ) , Dissertation: [\`\`Contact-Aided State Estimation on Lie Groups for Legged Robot Mapping and Control"](/files/dissertation_ross.pdf) , Defense [\`\` Video"](https://youtu.be/1RU-9SpvMxM) , Contact [rosshart@umich.edu](mailto:rosshart@umich.edu)
+
+27.  Omar Harib, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
+28.  William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision,"  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra)
+29.  Yukai Gong, \`\`Legged Locomotion: Cassie (Go) Blue," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
+30.  Eva Mungai, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
+31.  Bruce JK Huang , \`\`Robot Vision for Legged Locomotion: Cassie Blue," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
+32.  Grant Gibson, \`\`Legged Locomotion: Cassie (Go) Blue," [gg2nj@virginia.edu](mailto:grant gibson <gg2nj@virginia.edu>)
 
 Doctoral Students Graduated as Co-Advisor
 =========================================
