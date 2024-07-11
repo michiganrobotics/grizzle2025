@@ -51,8 +51,8 @@ Doctoral Students Graduated as Primary Advisor
 29.  Yukai Gong, \`\`Feedback Control of Highly Dynamic 3D Bipedal Locomotion," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
 30.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
 31.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
-32.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [gg2nj@virginia.edu](mailto:grantgib@umich.edu)
-33. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," [gg2nj@virginia.edu](mailto:wami@umich.edu)
+32.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [grantgib@umich.edu](mailto:grantgib@umich.edu)
+33. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," [wami@umich.edu](mailto:wami@umich.edu)
 
 Doctoral Students Graduated as Co-Advisor
 =========================================
@@ -64,13 +64,14 @@ Doctoral Students Graduated as Co-Advisor
 5.  [Hamed Razav](http://www-personal.umich.edu/~razavi/)i, \`\`Symmetry Method for Limit Cycle Walking of Legged Robots,'' 2016, [razavi@umich.edu](mailto:razavi@umich.edu ) \[Anthony Bloch was the primary advisor, with significant input from Christine Chevallereau and J. Grizzle\]
 6.  Petter Nilsson, \`\`Correct-by-Construction Control Software Synthesis for High-Dimensional Systems," 2017 [pettni@umich.edu](mailto:pettni@umich.edu) \[Primary Advisor: [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/index.html)\]
 7.  Oguz Dagci, \`\`Hybrid Electric Powertrain Architectures with Multiple Planetary Gearsets," 2018 [oguzhada@umich.edu](mailto:oguzhada@umich.edu), 2018  \[Primary Advisor: Huei Peng\]
+8. Lu Gan, \`\`Semantic-Aware Robotic Mapping in Unknown, Loosely Structured Environments", 2022, co-advised with Ryan Eustice and Maani Ghaffari.
 
 MS Students
 ===========
 
 1.  Deepak Aswani, \`\`Automotive Control," 2003, [daswani@ford.com](mailto:daswani@ford.com)
 2.  Theo Van Dam , \`\`Legged Locomotion," 2007, [vtheo@umich.edu](mailto: vtheo@umich.edu)
-3.  Mrunmayee Deshpande, \`\`Semantic Segmentation," 2018, [](mailto:msdesh@umich.edu)
-4.  Rajashree Ravi, \`\`Legged Locomotion," 2018, [](mailto:rajravi@umich.edu)
-5.  Aayushi Shrivastava, \`\`Stair Climbing for Legged Locomotion," 2023-24, [](mailto:aayushis@umich.edu)
-6.  Gokul Prabhakaran,  \`\`Fault Detection in Legged Locomotion," 2023-24, [](mailto:gok@umich.edu) 
+3.  Mrunmayee Deshpande, \`\`Semantic Segmentation," 2018, [msdesh@umich.edu](mailto:msdesh@umich.edu)
+4.  Rajashree Ravi, \`\`Legged Locomotion," 2018, [rajravi@umich.edu](mailto:rajravi@umich.edu)
+5.  Aayushi Shrivastava, \`\`Stair Climbing for Legged Locomotion," 2023-24, [aayushis@umich.edu](mailto:aayushis@umich.edu)
+6.  Gokul Prabhakaran,  \`\`Fault Detection in Legged Locomotion," 2023-24, [gok@umich.edu](mailto:gok@umich.edu) 
