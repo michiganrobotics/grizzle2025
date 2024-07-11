@@ -23,7 +23,7 @@ Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https
 
 <div style="border: 4px solid blue; background-color: #FFCB05; color: black; padding: 10px; margin: 10px 0;">
     <p>Dear Students and Colleagues,</p>
-    <p>After a rewarding and impactful journey in research, I have concluded this chapter of my academic career. As of January 2024, following the successful defenses of my last PhD students, I have officially closed my aboratory. Moving forward, I will no longer supervise PhDs, MS students, or Post-docs. Instead, my focus shifts passionately toward undergraduate teaching and dedicating my efforts to supporting Michigan Robotics. This transition marks not an end, but a new chapter where I aim to inspire and mold future generations of engineers with the wisdom gained from decades of research. Thank you for your continued support and collaboration.</p>
+    <p>After a rewarding and impactful journey in research, I have concluded this chapter of my academic career. As of January 2024, following the successful defenses of my last PhD students, I have officially closed my aboratory. Moving forward, I will no longer supervise PhDs, MS students, or Post-docs. Instead, my focus shifts passionately toward undergraduate teaching and dedicating my efforts to supporting Michigan Robotics. This transition marks not an end, but a new chapter where I aim to inspire and mold future generations of engineers with the wisdom gained from decades of research, teaching, and professional service. Thank you for your continued support and collaboration.</p>
     <p>Sincerely,<br>Prof. Jessy Grizzle</p>
 </div>
 
