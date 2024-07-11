@@ -46,12 +46,13 @@ Doctoral Students Graduated as Primary Advisor
 25.  [Xingye (Dennis) Da](https://scholar.google.com/citations?user=5lwj5vIAAAAJ&hl=en), \`\`Trajectory Optimization and Machine Learning to Design Feedback Controllers for Bipedal Robots with Provable Stability," 2018, [xda@umich.edu](mailto:xda@umich.edu)
 26.  Ross Hartley [Google Scholar](https://scholar.google.com/citations?hl=en&user=qQPgGpsAAAAJ) , Dissertation: [\`\`Contact-Aided State Estimation on Lie Groups for Legged Robot Mapping and Control"](/files/dissertation_ross.pdf) , Defense [\`\` Video"](https://youtu.be/1RU-9SpvMxM) , Contact [rosshart@umich.edu](mailto:rosshart@umich.edu)
 
-27.  Omar Harib, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
+27.  Omar Harib, \`\`Advances in Feedback Control for High-dimensional Bipedal Models," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
 28.  William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision,"  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra)
-29.  Yukai Gong, \`\`Legged Locomotion: Cassie (Go) Blue," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
-30.  Eva Mungai, \`\`Legged Locomotion: Exoskeletons for Paraplegics," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
-31.  Bruce JK Huang , \`\`Robot Vision for Legged Locomotion: Cassie Blue," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
-32.  Grant Gibson, \`\`Legged Locomotion: Cassie (Go) Blue," [gg2nj@virginia.edu](mailto:grant gibson <gg2nj@virginia.edu>)
+29.  Yukai Gong, \`\`Feedback Control of Highly Dynamic 3D Bipedal Locomotion," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
+30.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
+31.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
+32.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [gg2nj@virginia.edu](mailto:grantgib@umich.edu)
+33. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," [gg2nj@virginia.edu](mailto:wami@umich.edu)
 
 Doctoral Students Graduated as Co-Advisor
 =========================================
@@ -71,3 +72,5 @@ MS Students
 2.  Theo Van Dam , \`\`Legged Locomotion," 2007, [vtheo@umich.edu](mailto: vtheo@umich.edu)
 3.  Mrunmayee Deshpande, \`\`Semantic Segmentation," 2018, [](mailto:msdesh@umich.edu)
 4.  Rajashree Ravi, \`\`Legged Locomotion," 2018, [](mailto:rajravi@umich.edu)
+5.  Aayushi Shrivastava, \`\`Stair Climbing for Legged Locomotion," 2023-24, [](mailto:aayushis@umich.edu)
+6.  Gokul Prabhakaran,  \`\`Fault Detection in Legged Locomotion," 2023-24, [](mailto:gok@umich.edu) 
