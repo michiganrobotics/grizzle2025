@@ -36,6 +36,10 @@ Math is the language of engineering, but coding is believing and realizing it. T
 
  * [Textbook's GitHub Repository](https://github.com/michiganrobotics/ROB-101-Textbook-Computational-Linear-Algebra) (Latex Source Files)
 
+  * [YouTube Lectures Fall 2020](https://www.youtube.com/playlist?list=PLdPQZLMHRjDK8ZbLIcq1Q2PQobIi68dpv) (Professor Jessy Grizzle)
+
+* [YouTube Lectures Fall 2021](https://github.com/michiganrobotics/rob101/tree/main/Fall%202021) (Professor Maani Ghaffari)
+
  ==========ROB 501=============
 
 ROB 501: Mathematics for Robotics, is a graduate-level course at the University of Michigan that introduces applied mathematics for robotics engineers.
