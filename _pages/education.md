@@ -51,6 +51,18 @@ Topics include vector spaces, orthogonal bases, projection theorem, least square
   
  * [YouTube Lectures Fall 2018](https://www.youtube.com/playlist?list=PLdPQZLMHRjDIzO99aE7yAtdOHSVHMXfYH) (Professor Jessy Grizzle)
 
+==========ROB 201=============
+
+ROB 201: Got it! Let’s try capturing the essence of your revolutionary approach to calculus education again, this time keeping the key elements intact while adding a bit of flair:
+
+Since kicking off my tenure at the University of Michigan in 1987, I've watched traditional calculus cling stubbornly to outdated methods. Well, no more! This textbook isn't just another revision; it's a full-blown revolution in calculus teaching. Born from the urgent need for change and my front-line experiences in engineering education, it's designed to shake up the status quo.
+
+Teaming up with Prof. Chad Jenkins, we've reengineered the calculus curriculum. Starting with integration rather than derivation makes more sense—it’s intuitive and meshes seamlessly with programming, like calculating robot movements from velocity curves. We then dive into differentiation, linking theoretical math tightly with its practical applications, a leap from the typical, mundane calculation drills.
+
+But we don't stop there. Our journey extends through the realms of improper integrals, ODEs, Laplace Transforms, and beyond. This isn’t just theoretical mumbo-jumbo; it’s calculus made relevant, tested in a cutting-edge pilot program. We're not just teaching calculus; we’re transforming how it’s taught. Get ready to experience math like never before.
+
+
+ * [Course Flyer](https://docs.google.com/document/d/1Vuzk1reSarbPAewx2Y9NhxgN2j1hpUsGF4cgRjnGGfI/edit#heading=h.2vkf91415m8t) (Course description)
 
 
 
