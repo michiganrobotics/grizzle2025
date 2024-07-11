@@ -49,9 +49,9 @@ Doctoral Students Graduated as Primary Advisor
 27.  Omar Harib, \`\`Advances in Feedback Control for High-dimensional Bipedal Models," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
 28.  William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision,"  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra)
 29.  Yukai Gong, \`\`Feedback Control of Highly Dynamic 3D Bipedal Locomotion," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
-30.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
-31.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
-32.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [grantgib@umich.edu](mailto:grantgib@umich.edu)
+30.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
+31.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [grantgib@umich.edu](mailto:grantgib@umich.edu)
+32.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
 33. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," [wami@umich.edu](mailto:wami@umich.edu)
 
 Doctoral Students Graduated as Co-Advisor
