@@ -9,6 +9,8 @@ Papers on Bipedal Robots, Lower-limb Exoskeletons, and Robot Perception
 
 **Remember!** These electronic versions may differ from the final published papers; please obtain the originals if you wish to cite the paper.
 
+**Google Scholoar** [Will be the most up-to-date source](https://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ&view_op=list_works&sortby=pubdate) and is the only source for papers after 2021.
+
 * * *
 
 | [[**Recent**](#Recent) | [**Planar**](#Planar) | [**Compliance**](#Compliance) | [**Observers and Event-Based Control**](#Observers) | [**Rehabilitation**](#Rehabilitation) |
