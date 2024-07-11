@@ -6,15 +6,14 @@ main:
 
   - title: "Research"
     url: /research/ 
-    
-  # - title: "Publications"
-  #   url: /publications/
 
+  - title: "PhDs & Post Docs"
+    url: /phds/
+    
   - title: "Robot Videos"
     url: /robot-videos/
         
   - title: "Photos"
     url: /photos/
     
-  - title: "PhDs & Post Docs"
-    url: /phds/
+
