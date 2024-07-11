@@ -37,12 +37,6 @@ Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https
 *   [Former Lab's GitHub Site](https://github.com/UMich-BipedLab) Open-source Software for Estimation and Control. The very popular work on the Invariant Extended Kalman Filter (InvEKF) (by Ross Hartley and Maani Ghaffari) can be found here. 
 
 
-* * *
-
-Our [robot](http://eecs.umich.edu/eecs/about/articles/2017/new-generation-of-bipedal-robots.html), [Cassie (Go) Blue](https://news.engin.umich.edu/2017/09/latest-two-legged-walking-robot-arrives-at-michigan/)! MARLO and MABEL videos are available on YouTube: [Michigan Robotics: Dynamic Legged Locomotion Channel](http://www.youtube.com/user/DynamicLegLocomotion). Robots everywhere in our College of Engineering [Michigan Robotics Rocks!](http://www.youtube.com/watch?v=pMaCC__C0cE&feature=c4-overview-vl&list=PL5CFFA0DE541898F8)This is Michigan Engineering [2012](http://www.youtube.com/watch?v=e-p1QiRgxWo&feature=c4-overview-vl&list=PL5CFFA0DE541898F8). Robots are featured widely in UofM media: [Michigan Halftime Video](http://www.youtube.com/watch?v=guj0Ddp4bEA&list=PL5CFFA0DE541898F8) Victors for Michigan Campaign video [short](http://www.youtube.com/watch?v=8C_JpoZeUSk) (MABEL is at 0:16) and [long version](http://www.youtube.com/watch?v=_Mcf4UiaYQA) (MABEL is at 2:01). MABEL goes to the [Field Museum in Chicago.](https://www.youtube.com/watch?v=7qr9zVpqIiw)
 
 
 
-* * *
-
-My primary research area used to be the theory of nonlinear control systems. While I still have strong interest in this subject and feel a sense of community with that body of researchers, my research activities have significantly broadened over time. My work now covers the control of bipedal robots and correct-by-construction control methods for Advanced Driver Assist Systems. From 1986 to 2010, I worked on various aspects of modeling and control of automotive powertrain systems and control of HEVs. From 1991-2001, I applied systems and control techniques to improve the operation of plasma-based microelectronics manufacturing equipment.

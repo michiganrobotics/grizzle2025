@@ -7,8 +7,8 @@ main:
   - title: "Research"
     url: /research/ 
     
-  - title: "Publications"
-    url: /publications/
+  # - title: "Publications"
+  #   url: /publications/
 
   - title: "Robot Videos"
     url: /robot-videos/
