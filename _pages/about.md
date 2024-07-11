@@ -30,11 +30,11 @@ Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https
 
 * * *
 
-*   [Former Research Homepage](https://www.biped.solutions/)
 *   [Curriculum Vitae](/files/cv.pdf) and [IEEE-Style BIO](/files/bio.pdf)
 *   [Grizzle's Pubs at Google Scholar](http://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ)
 *   [YouTube Channel](http://www.youtube.com/user/DynamicLegLocomotion) (Robot Videos).
-*   [Our GitHub site](https://github.com/UMich-BipedLab) Open-source Software for Estimation and Control
+*   [Former Research Homepage](https://www.biped.solutions/)
+*   [Former Lab's GitHub Site](https://github.com/UMich-BipedLab) Open-source Software for Estimation and Control. The very popular work on the Invariant Extended Kalman Filter (InvEKF) (by Ross Hartley and Maani Ghaffari) can be found here. 
 
 
 * * *

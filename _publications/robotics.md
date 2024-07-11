@@ -3,29 +3,25 @@ title: "Robotics Publications"
 collection: publications
 permalink: /publications/robotics
 ---
-Open-source Software for Estimation and Control
-===============================================
-
-[Our GitHub site](https://github.com/UMich-BipedLab)
 
 Papers on Bipedal Robots, Lower-limb Exoskeletons, and Robot Perception
-=======================================================================
+
 
 **Remember!** These electronic versions may differ from the final published papers; please obtain the originals if you wish to cite the paper.
 
 * * *
 
-| [**In Review**](#Review) | [**Recent**](#Recent) | [**Planar**](#Planar) | [**Compliance**](#Compliance) | [**Observers and Event-Based Control**](#Observers) | [**Rehabilitation**](#Rehabilitation) |
+| [[**Recent**](#Recent) | [**Planar**](#Planar) | [**Compliance**](#Compliance) | [**Observers and Event-Based Control**](#Observers) | [**Rehabilitation**](#Rehabilitation) |
 
-### <a name="Review"></a>In Review
+
+
+### <a name="Recent"></a>(2021-2007: Mostly 3D Bipeds, Exos, and Perception, but not Exclusively)
 
 2.  Yukai Gong and Jessy W. Grizzle [One-Step Ahead Prediction of Angular Momentum about the Contact Point for Control of Bipedal Locomotion: Validation in a LIP-inspired Controller](https://grizzle.robotics.umich.edu/files/BipedControlAlgorithm_YukaiGong2020OneStepAhead.pdf), uploaded 06 January 2021, [Video](https://youtu.be/V36DCsc6iiol).
 3.  Yukai Gong and Jessy W. Grizzle [Angular Momentum about the Contact Point for Control of Bipedal Locomotion: Validation in a LIP-based Controller](https://arxiv.org/abs/2008.10763.pdf), uploaded 22 August 2020.
 4.  Jiunn-Kai (Bruce) Huang, Maani Ghaffari, Ross Hartley, Lu Gan, Ryan M. Eustice, and Jessy W. Grizzle [LiDARTag: A Real-Time Fiducial Tag using Point Clouds](https://arxiv.org/abs/1908.10349), submitted July 2018 [GitHub](https://github.com/UMich-BipedLab/LiDARTag)
 5.  Jiunn-Kai (Bruce) Huang, Chenxi Feng, Madhav Achar, Maani Ghaffari, and Jessy W. Grizzle [3D LiDAR Intrinsic Calibration and Automatic System for LiDAR to Camera Calibration](https://github.com/UMich-BipedLab/automatic_lidar_camera_calibration/blob/release_v1/AutomaticCalibration.pdf), submitted March 2020 [GitHub](https://github.com/UMich-BipedLab/automatic_lidar_camera_calibration)
 6.  Tzu-Yuan (Justin) Lin, William Clark, Ryan M. Eustice, Jessy W. Grizzle, Anthony Bloch, Maani Ghaffari [Adaptive Continuous Visual Odometry from RGB-D ImagesMapping](https://arxiv.org/abs/1910.00713), submitted 13 Sept. 2019.
-
-### <a name="Recent"></a>More Recent (Mostly 3D Bipeds, Exos, and Perception, but not Exclusively)
 
 8.  Jiunn-Kai (Bruce) Huang and Jessy W. Grizzle [Improvements to Target-Based 3D LiDAR to Camera Calibration](https://ieeexplore.ieee.org/document/9145571), IEEE Access ( Volume: 8 , July 2020) [GitHub](https://github.com/UMich-BipedLab/extrinsic_lidar_camera_calibration)
 9.  Maani Ghaffari, William Clark, Anthony Bloch, Ryan M. Eustice, Jessy W. Grizzle [Continuous Direct Sparse Visual Odometry from RGB-D Images](https://arxiv.org/abs/1904.02266), RSS 2020.
