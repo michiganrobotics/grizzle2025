@@ -44,15 +44,14 @@ Doctoral Students Graduated as Primary Advisor
 23.  [Brent Griffin](http://www.griffb.com/), \`\`Nonholonomic Virtual Constraints and Gait Optimization for Robust Robot Walking Control," 2016 [bagriffin@gmail.com](mailto: bagriffin@gmail.com)
 24.  [Yuxiao Chen](http://www-personal.umich.edu/~chenyx/), \`\`Correct-by-construction control synthesis for systems with disturbance and uncertainty," 2018, [chenyx@umich.edu](mailto:chenyx@umich.edu) \[Co-Advised with Huei Peng\]
 25.  [Xingye (Dennis) Da](https://scholar.google.com/citations?user=5lwj5vIAAAAJ&hl=en), \`\`Trajectory Optimization and Machine Learning to Design Feedback Controllers for Bipedal Robots with Provable Stability," 2018, [xda@umich.edu](mailto:xda@umich.edu)
-26.  Ross Hartley [Google Scholar](https://scholar.google.com/citations?hl=en&user=qQPgGpsAAAAJ) , Dissertation: [\`\`Contact-Aided State Estimation on Lie Groups for Legged Robot Mapping and Control"](/files/dissertation_ross.pdf) , Defense [\`\` Video"](https://youtu.be/1RU-9SpvMxM) , Contact [rosshart@umich.edu](mailto:rosshart@umich.edu)
+26.  Matthew Ross Hartley [Google Scholar](https://scholar.google.com/citations?hl=en&user=qQPgGpsAAAAJ) , Dissertation: [\`\`Contact-Aided State Estimation on Lie Groups for Legged Robot Mapping and Control"](/files/dissertation_ross.pdf), 2019, Defense [\`\` Video"](https://youtu.be/1RU-9SpvMxM) , Contact [rosshart@umich.edu](mailto:rosshart@umich.edu)
 
-27.  Omar Harib, \`\`Advances in Feedback Control for High-dimensional Bipedal Models," [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
-28.  William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision,"  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra)
-29.  Yukai Gong, \`\`Feedback Control of Highly Dynamic 3D Bipedal Locomotion," [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
-30.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
-31.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," [grantgib@umich.edu](mailto:grantgib@umich.edu)
-32.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
-33. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," [wami@umich.edu](mailto:wami@umich.edu)
+27.  Omar Harib, \`\`Advances in Feedback Control for High-dimensional Bipedal Models," 2021, [oharib@umich.edu](mailto:Omar Harib <oharib@umich.edu>)
+28.  Yukai Gong, \`\`Feedback Control of Highly Dynamic 3D Bipedal Locomotion," 2022, [ykgong@umich.edu](mailto:Yukai Gong <ykgong@umich.edu>)
+29.  Bruce JK Huang , \`\`Autonomous System for Legged Robots: From Calibration and Pose Estimation to CLF Reactive Motion Planning," 2022, [bjhuang@umich.edu](mailto:Bruce JK Huang <bjhuang@umich.edu>)
+30.  Grant Gibson, \`\`Terrain-Aware Bipedal Locomotion," 2023, [grantgib@umich.edu](mailto:grantgib@umich.edu)
+31.  Margaret Eva Mungai, \`\`Towards a Fall-Tolerant Framework for Bipedal Robots," 2024, [mungam@umich.edu](mailto:Margaret Eva Mungai <mungam@umich.edu>)
+32. Oluwami (Wami) Dosunmu-Ogunbi,  \`\`Ascending New Heights: Enhancing Bipedal Robotic Locomotion through Stair Climbing," 2024, [wami@umich.edu](mailto:wami@umich.edu)
 
 Doctoral Students Graduated as Co-Advisor
 =========================================
@@ -64,7 +63,8 @@ Doctoral Students Graduated as Co-Advisor
 5.  [Hamed Razav](http://www-personal.umich.edu/~razavi/)i, \`\`Symmetry Method for Limit Cycle Walking of Legged Robots,'' 2016, [razavi@umich.edu](mailto:razavi@umich.edu ) \[Anthony Bloch was the primary advisor, with significant input from Christine Chevallereau and J. Grizzle\]
 6.  Petter Nilsson, \`\`Correct-by-Construction Control Software Synthesis for High-Dimensional Systems," 2017 [pettni@umich.edu](mailto:pettni@umich.edu) \[Primary Advisor: [Necmiye Ozay](http://web.eecs.umich.edu/~necmiye/index.html)\]
 7.  Oguz Dagci, \`\`Hybrid Electric Powertrain Architectures with Multiple Planetary Gearsets," 2018 [oguzhada@umich.edu](mailto:oguzhada@umich.edu), 2018  \[Primary Advisor: Huei Peng\]
-8. Lu Gan, \`\`Semantic-Aware Robotic Mapping in Unknown, Loosely Structured Environments", 2022, co-advised with Ryan Eustice and Maani Ghaffari.
+8. William Clark, \`\`Hybrid Systems, Robotics, and Robot Vision," 2020,  [wiclark@umich.edu](mailto:William Clark <wiclark@umich.edu>) [Google Scholar]( https://scholar.google.com/citations?user=jnwpsqwAAAAJ&hl=en&oi=sra), \[Primary Advisor: Anthony Bloch\].
+0. Lu Gan, \`\`Semantic-Aware Robotic Mapping in Unknown, Loosely Structured Environments", 2021, co-advised with Ryan Eustice and Maani Ghaffari.
 
 MS Students
 ===========
