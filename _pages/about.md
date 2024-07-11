@@ -19,7 +19,7 @@ carousels:
     - image: /images/slider/robotics-bldg-web.jpg
 ---
   {% include carousel.html height="50" unit="%" duration="3" number="1" %}
-Jessy W. Grizzle is a (full) Professor in the [Robotics Department](http://robotics.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/) in [Ann Arbor](https://www.a2gov.org), [Michigan](https://www.michigan.gov/).. 
+Jessy W. Grizzle is a (full) Professor in the [Robotics Department](http://robotics.umich.edu/) within the [College of Engineering](http://www.engin.umich.edu/) at [The University of Michigan](http://www.umich.edu/), Ann Arbor, MI.
 
 <div style="border: 6px solid blue; background-color: #FFCB05; color: black; padding: 10px; margin: 10px 0;">
     <p>Dear Students and Colleagues,</p>
