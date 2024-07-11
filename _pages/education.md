@@ -20,7 +20,7 @@ For Michigan Robotics, I designed, developed, and taught:
 - **ROB 201 Calculus for the Modern Engineer**
 - **ROB 501 Mathematics for Robotics**
 
-Course notes for the EECS courses have been passed on to Professors Necmiye Ozay and Dimitra (Mika) Panagou. The material for
+Course notes for the EECS courses have been passed on to Professors Necmiye Ozay and Dimitra (Mika) Panagou. The material for the Robotics courses is provided below.
 
 
 * [ROB 101 Computational Linear Algebra](https://robotics.umich.edu/academic-program/course-offerings/rob101/) (Homepage)
