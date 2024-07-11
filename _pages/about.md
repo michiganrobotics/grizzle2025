@@ -29,7 +29,7 @@ Jessy W. Grizzle is a (full) Professor in the [Biped Robotics Laboratory](https
 
 
 * * *
-
+*   **Administrative Service Highlights:** I was Director of the Michigan Robotics Institute from 2016 to 2022. I served under Prof. Dawn Tilbury on the Robotics Steering Committee from 2011 to 2012, which mapped out the future of Robotics at Michigan.  A few words on the founding of the Robotics Department can be found [here](https://youtu.be/UjImuwlJWBM).
 *   [Curriculum Vitae](/files/cv.pdf) and [IEEE-Style BIO](/files/bio.pdf)
 *   [Grizzle's Pubs at Google Scholar](http://scholar.google.com/citations?hl=en&user=heYuqBkAAAAJ)
 *   [YouTube Channel](http://www.youtube.com/user/DynamicLegLocomotion) (Robot Videos).
