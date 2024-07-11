@@ -1,8 +1,8 @@
 # main links links
 main:
 
-  - title: "Teaching"
-    url: https://robotics.umich.edu/academic-program/course-offerings/rob101/    
+  - title: "Education"
+    url: /education/    
     
   - title: "Publications"
     url: /publications/
