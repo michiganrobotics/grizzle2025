@@ -25,6 +25,17 @@ Course notes for the EECS courses have been passed on to Professors Necmiye Ozay
 
  =======================
 
- * [ROB 101 Computational Linear Algebra](https://robotics.umich.edu/academic-program/course-offerings/rob101/) (Homepage)
+ * [Homepage](https://robotics.umich.edu/academic-program/course-offerings/rob101/) 
+
+ * [Course GitHub Repository]( https://github.com/michiganrobotics/rob101) (Lecture Notes, HW sets, Programming Assignments, Projects)
 
 
+ * [Textbook's GitHub Repository](https://github.com/michiganrobotics/ROB-101-Textbook-Computational-Linear-Algebra) (Source Files)
+
+  
+ * [YouTube Lectures Fall 2020](https://www.youtube.com/playlist?list=PLdPQZLMHRjDK8ZbLIcq1Q2PQobIi68dpv)
+
+  * [YouTube Lectures Fall 2021](https://www.youtube.com/playlist?list=PLdPQZLMHRjDJ5d_dE4FeOviv0gRe4UYsB)
+
+
+ =======================
