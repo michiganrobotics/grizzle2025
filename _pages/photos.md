@@ -22,7 +22,7 @@ author_profile: true
 
 
 
-# Evolution at Work
+# Ageing In Place
 
 ![Jessy Grizzle profile 1998](/images/1998.jpg)  
 Circa 1998
