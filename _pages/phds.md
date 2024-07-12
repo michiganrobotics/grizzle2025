@@ -1,14 +1,12 @@
 ---
 permalink: /phds/
-title: "PhDs and Postdocs"
+title: "Post-Docs"
 excerpt: "Members of the lab"
 author_profile: true
 
 ---
 
 
-Post-Docs
-=========
 
 1.  [Zhenyu Gan](https://scholar.google.com/citations?user=PhjMFZUAAAAJ&hl=en), \`\` Feedback Control of a Cassie Bipedal Roboot," March 2019 through present. (Joint with [Ram Vasudevan]( https://scholar.google.com/citations?user=iAHjMzQAAAAJ&hl=en))
 2.  [Ayonga Hereid](https://scholar.google.com/citations?user=Ul2F7OwAAAAJ), \`\`Fast Optimization and Asymptotically Stable Gait Design for Bipedal Robots and Exoskeletons," January 2017 through December 2018.
