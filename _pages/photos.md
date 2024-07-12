@@ -4,6 +4,7 @@ permalink: /photos/
 author_profile: true
 ---
 
+[![Thumbnail for Maison Grizzle](Maison-Grizzle-for-web-high-res.png)](Maison-Grizzle-for-web-high-res.png)
 
 
 [Grizzle Fest](https://grizzle-fest.github.io/) united students, postdocs, and close collaborators across my career. Two days of talks explored contributions in nonlinear control theory and its application to sectors such as automotive engineering, semiconductor manufacturing, and robotics. The event also included various social venues, providing opportunities for alumni to reconnect.
