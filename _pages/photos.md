@@ -60,6 +60,12 @@ author_profile: true
             </a>
             <p>Circa 2013</p>
         </div>
+                <div>
+            <a href="/images/2020.png" target="_blank">
+                <img src="/images/2013.png" alt="Jessy Grizzle profile 2020">
+            </a>
+            <p>Circa 2020</p>
+        </div>
     </div>
 </body>
 </html>
