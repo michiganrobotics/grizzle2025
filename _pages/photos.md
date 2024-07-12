@@ -4,6 +4,7 @@ permalink: /photos/
 author_profile: true
 ---
 
+
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -23,8 +24,8 @@ author_profile: true
         }
 
         .gallery img {
-            width: 100px; /* Set the width of images */
-            height: auto; /* Maintain aspect ratio */
+            width: auto; /* Set the width of images */
+            height: 150px; /* Maintain aspect ratio */
         }
     </style>
 </head>
@@ -60,15 +61,16 @@ author_profile: true
             </a>
             <p>Circa 2013</p>
         </div>
-                <div>
-            <a href="/images/2020.png" target="_blank">
-                <img src="/images/2013.png" alt="Jessy Grizzle profile 2020">
+        <div>
+            <a href="/images/2020.jpg" target="_blank">
+                <img src="/images/2020.jpg" alt="Jessy Grizzle profile 2020">
             </a>
-            <p>Circa 2020</p>
+            <p>Circa 2020</p> <!-- Corrected the caption year -->
         </div>
     </div>
 </body>
 </html>
+
 
 
 
