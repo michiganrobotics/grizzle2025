@@ -11,6 +11,10 @@ author_profile: true
 
 # A Few of My Presentations
 
+
+- Overview Talk: [Michigan’s Robotics Department and Undergrad Curriculum – ‘Non c’è scommessa più persa di quella che non giocherò’ (There’s no bet more lost than the one I won’t even play)” — Ora by Jovanotti](https://youtu.be/UjImuwlJWBM), Spring 2024 GRASP on Robotics: Jessy Grizzle, University of Michigan
+
+
 - Overview Talk: [Bipedal Walking Robots Distinguished University Professorship 2015 Lecture Series](https://youtu.be/EMX7wc0vcWE)
 
 - Intermediate Talk: [2012 Bode Lecture: Highly Agile And Robust Robotic Bipedal Locomotion Through Nonlinear Geometric Control](https://ieeecss.org/presentation/bode-lecture/highly-agile-and-robust-robotic-bipedal-locomotion-through-nonlinear)
@@ -19,6 +23,8 @@ author_profile: true
 - Technical  Talk: [2019 MIT Robotics - Mathematics and Learning for Bipedal Locomotion](https://youtu.be/rVPVZn2aNWI)
 
 - Technical  Talk:  [J. Grizzle & Maani Ghaffari: ICRA2021 Workshop on Legged Robots](https://youtu.be/0Gg8BTs6HLY)
+
+- Technical  Talk:  [2004 IEEE CDC Plenary: Walking & Running Robots, Control Theory and Experiments](/files/CDC_Plenary2004FullPage.pdf) The videos in the pdf do not play; similar videos are in the [RABBIT Playlist](https://www.youtube.com/playlist?list=PLFe0SMV3hBCCi9_GuVKR0pB55nyB0Oosv)
 
 
 
