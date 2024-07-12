@@ -26,6 +26,8 @@ author_profile: true
 
 - Technical  Talk:  [2004 IEEE CDC Plenary: Walking & Running Robots, Control Theory and Experiments](/files/CDC_Plenary2004FullPage.pdf) The videos in the pdf do not play; similar videos are in the [RABBIT Playlist](https://www.youtube.com/playlist?list=PLFe0SMV3hBCCi9_GuVKR0pB55nyB0Oosv)
 
+- Just Having Fun: [Robots at NSBE 2019](https://www.youtube.com/watch?v=PIY-BNn2joo)
+
 
 
 # Ageing In Place
