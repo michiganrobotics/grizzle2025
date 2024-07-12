@@ -12,7 +12,7 @@ author_profile: true
 # A Few of My Presentations
 
 
-- Overview Talk: [Michigan’s Robotics Department and Undergrad Curriculum – ‘Non c’è scommessa più persa di quella che non giocherò’ (There’s no bet more lost than the one I won’t even play)” — Ora by Jovanotti](https://youtu.be/UjImuwlJWBM), Spring 2024 GRASP on Robotics: Jessy Grizzle, University of Michigan
+- Overview Talk: [Michigan’s Robotics Department and Undergrad Curriculum – ‘Non c’è scommessa più persa di quella che non giocherò’ (There’s no bet more lost than the one I won’t even play)” — Ora by Jovanotti](https://youtu.be/UjImuwlJWBM), Spring 2024 UPenn GRASP on Robotics: Jessy Grizzle, University of Michigan
 
 
 - Overview Talk: [Bipedal Walking Robots Distinguished University Professorship 2015 Lecture Series](https://youtu.be/EMX7wc0vcWE)
