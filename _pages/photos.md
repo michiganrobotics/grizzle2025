@@ -9,7 +9,7 @@ author_profile: true
 
 [Grizzle Fest](https://grizzle-fest.github.io/) united students, postdocs, and close collaborators across my career. Two days of talks explored my journey with nonlinear control theory and its application to sectors such as automotive engineering, semiconductor manufacturing, and robotics. 
 
-# A Few Presentations
+# A Few of My Presentations
 
 - Overview Talk: [Bipedal Walking Robots Distinguished University Professorship 2015 Lecture Series](https://youtu.be/EMX7wc0vcWE)
 
