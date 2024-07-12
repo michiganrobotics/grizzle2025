@@ -1,8 +1,12 @@
 ---
-title: "Photos"
+title: "Grizzle Fest"
 permalink: /photos/
 author_profile: true
 ---
+
+
+
+[Grizzle Fest](https://grizzle-fest.github.io/) united students, postdocs, and close collaborators across my career. Two days of talks explored contributions in nonlinear control theory and its application to sectors such as automotive engineering, semiconductor manufacturing, and robotics. The event also included various social venues, providing opportunities for alumni to reconnect.
 
 
 <html lang="en">
@@ -62,8 +66,8 @@ author_profile: true
             <p>Circa 2013</p>
         </div>
         <div>
-            <a href="/images/2020.jpg" target="_blank">
-                <img src="/images/2020.jpg" alt="Jessy Grizzle profile 2020">
+            <a href="/images/bio-photo.jpg" target="_blank">
+                <img src="/images/bio-photo.jpg" alt="Jessy Grizzle profile 2020">
             </a>
             <p>Circa 2020</p> <!-- Corrected the caption year -->
         </div>
@@ -71,20 +75,3 @@ author_profile: true
 </body>
 </html>
 
-
-
-
-<!-- ![Jessy Grizzle profile 1998](/images/1998.jpg)  
-Circa 1998
-
-![Jessy Grizzle profile 1999](/images/1999.jpg)  
-Circa 1999
-
-![Jessy Grizzle profile 2004](/images/2004.jpg)  
-Circa 2004
-
-![Jessy Grizzle profile 2008](/images/2008.jpg)  
-Circa 2008
-
-![Jessy Grizzle profile 2013](/images/2013.png)  
-Circa 2013 -->
