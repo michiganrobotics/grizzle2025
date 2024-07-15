@@ -23,10 +23,9 @@ gallery:
 2.  This work is supported by [NSF](http://nsf.gov/), **the National Science Foundation.**
 3.  [Description](#description) of MABEL and what is so [special](#features) about it?
 4.  MABEL is planar and has no feet. [Why?](#planar)
-5.  Brief statement of our [specific research objectives](#objectives). For a more global view, see [Current Projects](projects.html)
+5.  Brief statement of our [specific research objectives](#objectives).
 6.  Links to SolidWorks Cad files for the robot and much more [robot technical data](#robotdata) are available to the public for free because we are supported by the US National Science Foundation.
-7.  For a laboratory tour or demo, see [lab tours](#tours).
-8.  Our robotics work has been featured in Scientific American, Discover Magazine, The Economist, and much more.
+7.  Our robotics work has been featured in Scientific American, Discover Magazine, The Economist, and much more.
 
 * * *
 
@@ -48,9 +47,9 @@ gallery:
 
 **<a name="robotdata"></a>Robot Stuff:**
 
-1.  You can download a complete set of CAD files (SolidWorks) for the robot. With these files, you can have all of the parts of the robot machined. [**Click here**](http://mime.oregonstate.edu/research/drl/robots/mabel/) then scroll to the bottom of the page.
-2.  Publications detailing the control laws implemented on the robot are available [**here**](publications/robotics.html).
-3.  A ZIP file providing a symbolic mathematical model of the robot's powertrain is available here. [\[**Right Click and Save**\]](papers/Transmission-Dynamics.zip)
+1.  You can download a complete set of CAD files (SolidWorks) for the robot. With these files, you can have all of the parts of the robot machined. [**Click here**](https://mime.engineering.oregonstate.edu/research/drl/publications.html) then scroll to the bottom of the page.
+2.  Publications detailing the control laws implemented on the robot are available [**here**](/publications/robotics.html).
+3.  A ZIP file providing a symbolic mathematical model of the robot's powertrain is available here. [\[**Right Click and Save**\]](/files/Transmission-Dynamics.zip)
 4.  Tons of photographs of the robot's "insides'' are [**here**](#photos).
 
 * * *
