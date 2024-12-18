@@ -15,7 +15,7 @@ author_profile: true
 Feedback Control of Dynamic Bipedal Robot Locomotion
 ====================================================
 
-Welcome! This webpage contains information about the book [_Feedback Control of Dynamic Bipedal Robot Locomotion_](http://www.crcpress.com/shopping_cart/products/product_detail.asp?sku=53728), Taylor & Francis/CRC, 2007. (ISBN 1-42005-372-8)
+Welcome! This webpage contains information about the book [_Feedback Control of Dynamic Bipedal Robot Locomotion_](https://www.taylorfrancis.com/books/mono/10.1201/9781420053739/feedback-control-dynamic-bipedal-robot-locomotion-jessy-grizzle-eric-westervelt-shuzhi-sam-ge-frank-lewis-benjamin-morris-jun-ho-choi-christine-chevallereau), Taylor & Francis/CRC, 2007. (ISBN 1-42005-372-8)
 
 [![Feedback Control of Dynamic Bipedal Robot Locomotion cover](/images/WGCCM_book_cover_thumb.png)](/images/WGCCM_book_cover.png)   [![Feedback Control of Dynamic Bipedal Robot Locomotion back cover](/images/WGCCM_book_back_cover_thumb.png)](/images/WGCCM_book_back_cover.png)
 
