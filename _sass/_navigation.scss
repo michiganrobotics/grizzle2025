@@ -172,140 +172,146 @@
    Priority plus navigation
    ========================================================================== */
 
-.greedy-nav {
+/* Site navigation: brand left, links right on desktop; hamburger dropdown on mobile.
+   Replaces the legacy greedy-nav. The old greedy script in main.min.js targets
+   #site-nav/.visible-links, which no longer exist, so it safely no-ops. */
+.site-nav {
   position: relative;
+  display: flex;
+  align-items: center;
   min-width: 250px;
   background: $background-color;
+  font-family: $sans-serif-narrow;
+}
+
+.site-nav__brand {
+  flex-shrink: 0;
+  margin-right: auto; /* push the link list to the right */
+  padding: 0.5rem 0;
+  font-weight: 700;
+  font-size: $type-size-4;
+  color: $masthead-link-color;
+  text-decoration: none;
+
+  &:hover { color: $masthead-link-color-hover; }
+}
+
+.site-nav__menu {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  li { display: block; }
 
   a {
+    position: relative;
     display: block;
     margin: 0 1rem;
     padding: 0.5rem 0;
     color: $masthead-link-color;
     text-decoration: none;
 
-    &:hover {
-      color: $masthead-link-color-hover;
+    &:hover { color: $masthead-link-color-hover; }
+
+    &::before {
+      content: "";
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      height: 4px;
+      background: mix(#fff, $primary-color, 50%);
+      transform: scaleX(0);
+      transition: $global-transition;
     }
+    &:hover::before { transform: scaleX(1); }
   }
 
-  button {
+  li:last-child a { margin-right: 0; }
+}
+
+.site-nav__toggle {
+  display: none;
+  width: 2.5rem;
+  height: 2.25rem;
+  padding: 0;
+  border: 0;
+  outline: none;
+  background: $primary-color;
+  border-radius: $border-radius;
+  cursor: pointer;
+}
+
+.site-nav__navicon {
+  position: relative;
+  display: block;
+  width: 1.15rem;
+  height: 2px;
+  margin: 0 auto;
+  background: #fff;
+  transition: $global-transition;
+
+  &::before,
+  &::after {
+    content: "";
     position: absolute;
-    height: 100%;
-    right: 0;
-    padding: 0 0.5rem;
-    border: 0;
-    outline: none;
-    background-color: $primary-color;
-    color: #fff;
-    cursor: pointer;
+    left: 0;
+    width: 1.15rem;
+    height: 2px;
+    background: #fff;
+    transition: $global-transition;
   }
+  &::before { top: -6px; }
+  &::after { top: 6px; }
+}
 
-  .visible-links {
-    display: table;
+.site-nav.is-open .site-nav__navicon { background: transparent; }
+.site-nav.is-open .site-nav__navicon::before { top: 0; transform: rotate(45deg); }
+.site-nav.is-open .site-nav__navicon::after { top: 0; transform: rotate(-45deg); }
 
-    li {
-      display: table-cell;
-      vertical-align: middle;
+/* Visible keyboard focus indicators (the toggle sets outline:none for mouse use) */
+.site-nav__brand:focus-visible,
+.site-nav__menu a:focus-visible,
+.site-nav__toggle:focus-visible {
+  outline: 3px solid #0b3d91;
+  outline-offset: 2px;
+  border-radius: 3px;
+}
 
-      &:first-child {
-        font-weight: bold;
+@media (prefers-reduced-motion: reduce) {
+  .site-nav__navicon,
+  .site-nav__navicon::before,
+  .site-nav__navicon::after,
+  .site-nav__menu a::before { transition: none; }
+}
 
-        a {
-          margin-left: 0;
-        }
-      }
+@media screen and (max-width: 768px) {
+  .site-nav__toggle { display: flex; align-items: center; justify-content: center; }
 
-      &:last-child {
-        a {
-          margin-right: 0;
-        }
-      }
-    }
-
-    a {
-      position: relative;
-
-      &:before {
-        content: "";
-        position: absolute;
-        left: 0;
-        bottom: 0;
-        height: 4px;
-        background: mix(#fff, $primary-color, 50%);
-        width: 100%;
-        -webkit-transition: $global-transition;
-        transition: $global-transition;
-        -webkit-transform: scaleX(0);
-            -ms-transform: scaleX(0);
-                transform: scaleX(0); /* hide*/
-      }
-
-      &:hover:before {
-        -webkit-transform: scaleX(1);
-            -ms-transform: scaleX(1);
-                transform: scaleX(1); /* reveal*/
-      }
-    }
-  }
-
-  .hidden-links {
+  .site-nav__menu {
+    display: none;
     position: absolute;
     top: 100%;
     right: 0;
-    margin-top: 15px;
-    padding: 5px;
+    z-index: 30;
+    margin-top: 12px;
+    min-width: 220px;
+    flex-direction: column;
+    align-items: stretch;
+    padding: 6px;
     border: 1px solid $border-color;
     border-radius: $border-radius;
     background: #fff;
-    box-shadow: 0 0 10px rgba(#000, 0.25);
-
-    a {
-      margin: 0;
-      padding: 10px 20px;
-      font-size: $type-size-5;
-
-      &:hover {
-        color: $masthead-link-color-hover;
-        background: mix(#fff, $primary-color, 75%);
-      }
-    }
-
-    &:before {
-      content: "";
-      position: absolute;
-      top: -11px;
-      right: 10px;
-      width: 0;
-      border-style: solid;
-      border-width: 0 10px 10px;
-      border-color: $border-color transparent;
-      display: block;
-      z-index: 0;
-    }
-
-    &:after {
-      content: "";
-      position: absolute;
-      top: -10px;
-      right: 10px;
-      width: 0;
-      border-style: solid;
-      border-width: 0 10px 10px;
-      border-color: #fff transparent;
-      display: block;
-      z-index: 1;
-    }
-
-    li {
-      display: block;
-      border-bottom: 1px solid $border-color;
-
-      &:last-child {
-        border-bottom: none;
-      }
-    }
+    box-shadow: 0 6px 20px rgba(#000, 0.18);
   }
+  .site-nav.is-open .site-nav__menu { display: flex; }
+
+  .site-nav__menu li { border-bottom: 1px solid $border-color; }
+  .site-nav__menu li:last-child { border-bottom: 0; }
+  .site-nav__menu a { margin: 0; padding: 10px 16px; }
+  .site-nav__menu a::before { display: none; }
 }
 
 

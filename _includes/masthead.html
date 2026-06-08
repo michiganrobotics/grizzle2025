@@ -3,21 +3,40 @@
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
-      <nav id="site-nav" class="greedy-nav">
-        <button><div class="navicon"></div></button>
-        <ul class="visible-links">
-          <li class="masthead__menu-item masthead__menu-item--lg"><a href="{{ base_path }}/">{{ site.title }}</a></li>
+      <nav id="primary-nav" class="site-nav" aria-label="Main navigation">
+        <a class="site-nav__brand" href="{{ base_path }}/">{{ site.title }}</a>
+        <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="primary-nav-menu" aria-label="Toggle navigation menu">
+          <span class="site-nav__navicon"></span>
+        </button>
+        <ul id="primary-nav-menu" class="site-nav__menu">
           {% for link in site.data.navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
-              {% else %}
+            {% else %}
               {% assign domain = base_path %}
             {% endif %}
             <li class="masthead__menu-item"><a href="{{ domain }}{{ link.url }}">{{ link.title }}</a></li>
           {% endfor %}
         </ul>
-        <ul class="hidden-links hidden"></ul>
       </nav>
     </div>
   </div>
 </div>
+
+<script>
+  (function () {
+    var nav = document.getElementById('primary-nav');
+    if (!nav) return;
+    var btn = nav.querySelector('.site-nav__toggle');
+    var menu = nav.querySelector('.site-nav__menu');
+    function close() { nav.classList.remove('is-open'); btn.setAttribute('aria-expanded', 'false'); }
+    btn.addEventListener('click', function (e) {
+      e.stopPropagation();
+      var open = nav.classList.toggle('is-open');
+      btn.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+    menu.addEventListener('click', function (e) { if (e.target.closest('a')) close(); });
+    document.addEventListener('click', function (e) { if (nav.classList.contains('is-open') && !nav.contains(e.target)) close(); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+  })();
+</script>

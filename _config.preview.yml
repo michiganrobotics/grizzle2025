@@ -1,0 +1,8 @@
+# Preview override: makes all links/assets root-relative so the built _site
+# works on any host (e.g. a Netlify Drop URL) instead of pointing at production.
+# Build with: bundle exec jekyll build --config _config.yml,_config.preview.yml
+url: ""
+baseurl: ""
+
+analytics:
+  provider: false

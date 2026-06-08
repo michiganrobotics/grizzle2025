@@ -93,8 +93,8 @@ $xing-color                 : #006567;
 $link-color                 : $info-color;
 $link-color-hover           : mix(#000, $link-color, 25%);
 $link-color-visited         : mix(#fff, $link-color, 25%);
-$masthead-link-color        : $primary-color;
-$masthead-link-color-hover  : mix(#000, $primary-color, 25%);
+$masthead-link-color        : #565b60; /* darkened from $primary-color (#7a8288) to meet WCAG AA contrast on white (~6.9:1) */
+$masthead-link-color-hover  : #2b2f33;
 
 
 /*

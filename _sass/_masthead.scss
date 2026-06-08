@@ -14,12 +14,9 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
-    padding: 1em 1em 1em;
+    max-width: 1180px; /* align masthead with the course content / subnav width */
+    padding: 1em 1.4rem; /* align masthead gutters with course subnav */
     font-family: $sans-serif-narrow;
-
-    @include breakpoint($x-large) {
-      max-width: $x-large;
-    }
 
     nav {
       z-index: 10;

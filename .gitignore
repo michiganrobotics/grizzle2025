@@ -1,2 +1,8 @@
 _site/
 .DS_Store
+
+# Local build / dev artifacts
+vendor/
+.bundle/
+.jekyll-metadata
+.ruby-version
