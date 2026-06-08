@@ -6,14 +6,11 @@
   @include container;
   @include clearfix;
   margin-top: 2em;
-  padding-left: 1em;
-  padding-right: 1em;
+  max-width: 1180px; /* align content width with the masthead nav */
+  padding-left: 1.4rem; /* align content gutters with the masthead nav */
+  padding-right: 1.4rem;
   animation: intro 0.3s both;
   animation-delay: 0.35s;
-
-  @include breakpoint($x-large) {
-    max-width: $x-large;
-  }
 }
 
 .page {
