@@ -16,7 +16,7 @@ author_profile: false
   .page:has(.rob-page) .page__content { margin: 0; padding: 0; width: 100%; max-width: none; }
   .page:has(.rob-page) .page__content h2 { border-bottom: 0; padding-bottom: 0; }
   .page:has(.rob-page) > .page__inner-wrap > header { display: none; }
-  .rob-page { width: 100%; }
+  .rob-page { width: 100%; max-width: 100%; overflow-x: hidden; }
   /* Sticky course subnav: pins to top once the site masthead scrolls away */
   .rob-page .course-subnav { position: sticky; top: 0; z-index: 30; background: var(--blue); border-bottom: 2px solid var(--maize); }
   .rob-page .course-subnav-inner { max-width: var(--maxw); margin: 0 auto; padding: .5rem 1.4rem; display: flex; align-items: center; justify-content: space-between; gap: .75rem 1.25rem; flex-wrap: wrap; }
@@ -208,6 +208,11 @@ author_profile: false
   .rob-page .resource-item a { font-weight: 800; }
   .rob-page .link-note { color: var(--muted); font-size: .92rem; margin-top: 1rem; }
   @media (max-width: 820px) {
+    .rob-page .course-subnav { position: static; }
+    .rob-page .course-subnav-inner { display: block; padding: .55rem 1rem; }
+    .rob-page .course-subnav-label { display: block; margin-bottom: .25rem; }
+    .rob-page .course-subnav-links { width: 100%; justify-content: flex-start; }
+    .rob-page .course-subnav-links a { font-size: .82rem; padding: .38rem .45rem; }
     .rob-page .hero { min-height: 720px;
         background:
           linear-gradient(180deg, rgba(0, 39, 76, .96) 0%, rgba(0, 39, 76, .84) 58%, rgba(0, 39, 76, .52) 100%),
