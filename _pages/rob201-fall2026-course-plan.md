@@ -1,7 +1,7 @@
 ﻿---
 title: "ROB 201 Fall 2026 Course Plan"
 collection: education
-permalink: /education/rob201/fall2026/course-plan/
+permalink: /education/rob201-fall2026-course-plan
 author_profile: false
 share: false
 ---
