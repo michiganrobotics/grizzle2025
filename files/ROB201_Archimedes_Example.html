@@ -1,0 +1,499 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Archimedes Traps Pi</title>
+  <style>
+    :root {
+      --um-blue: #00274c;
+      --um-maize: #ffcb05;
+      --ink: #18212d;
+      --muted: #5f6b7a;
+      --paper: #f7f4ec;
+      --panel: #ffffff;
+      --circle: #d62828;
+      --inner: #1b66d2;
+      --outer: #2f2f35;
+      --grid: #d8dddf;
+      --shadow: 0 18px 50px rgba(0, 39, 76, 0.16);
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--ink);
+      font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background:
+        linear-gradient(135deg, rgba(0, 39, 76, 0.08), rgba(255, 203, 5, 0.15)),
+        var(--paper);
+    }
+
+    main {
+      width: min(1180px, calc(100vw - 32px));
+      margin: 0 auto;
+      padding: 34px 0 44px;
+    }
+
+    header {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 28px;
+      align-items: end;
+      margin-bottom: 24px;
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      color: var(--um-blue);
+      font-size: clamp(2rem, 4vw, 4.2rem);
+      line-height: 0.95;
+      letter-spacing: 0;
+    }
+
+    .dek {
+      max-width: 740px;
+      margin: 0;
+      color: var(--muted);
+      font-size: clamp(1rem, 1.8vw, 1.28rem);
+      line-height: 1.55;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      min-height: 44px;
+      padding: 10px 14px;
+      border-left: 7px solid var(--um-maize);
+      color: var(--um-blue);
+      background: rgba(255, 255, 255, 0.78);
+      font-weight: 800;
+      box-shadow: 0 6px 20px rgba(0, 39, 76, 0.09);
+    }
+
+    .workspace {
+      display: grid;
+      grid-template-columns: minmax(0, 1.08fr) minmax(320px, 0.62fr);
+      gap: 22px;
+      align-items: stretch;
+    }
+
+    .visual,
+    .controls {
+      background: rgba(255, 255, 255, 0.9);
+      border: 1px solid rgba(0, 39, 76, 0.1);
+      box-shadow: var(--shadow);
+    }
+
+    .visual {
+      padding: clamp(14px, 2.5vw, 28px);
+    }
+
+    .svg-wrap {
+      position: relative;
+      width: 100%;
+      aspect-ratio: 1 / 1;
+      min-height: 360px;
+      overflow: hidden;
+      background:
+        linear-gradient(var(--grid) 1px, transparent 1px),
+        linear-gradient(90deg, var(--grid) 1px, transparent 1px),
+        #fcfcfa;
+      background-size: 34px 34px;
+    }
+
+    svg {
+      width: 100%;
+      height: 100%;
+      display: block;
+    }
+
+    .controls {
+      display: flex;
+      flex-direction: column;
+      gap: 18px;
+      padding: clamp(18px, 2.4vw, 26px);
+    }
+
+    .readout {
+      display: grid;
+      gap: 12px;
+      padding: 18px;
+      color: white;
+      background: var(--um-blue);
+    }
+
+    .readout .label {
+      color: rgba(255, 255, 255, 0.72);
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    .bounds {
+      font-size: clamp(1.05rem, 2.3vw, 1.45rem);
+      font-variant-numeric: tabular-nums;
+      line-height: 1.4;
+      overflow-wrap: anywhere;
+    }
+
+    .estimate {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 12px;
+    }
+
+    .metric {
+      padding: 14px;
+      background: rgba(255, 255, 255, 0.12);
+    }
+
+    .metric strong {
+      display: block;
+      margin-top: 5px;
+      font-size: 1.18rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .slider-box {
+      display: grid;
+      gap: 14px;
+    }
+
+    .slider-top {
+      display: flex;
+      justify-content: space-between;
+      gap: 16px;
+      align-items: baseline;
+    }
+
+    .slider-top label {
+      color: var(--um-blue);
+      font-size: 1.05rem;
+      font-weight: 850;
+    }
+
+    .n-value {
+      color: var(--um-blue);
+      font-size: 2.2rem;
+      font-weight: 900;
+      font-variant-numeric: tabular-nums;
+    }
+
+    input[type="range"] {
+      width: 100%;
+      accent-color: var(--um-blue);
+    }
+
+    .actions {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .scale-labels {
+      display: flex;
+      justify-content: space-between;
+      gap: 8px;
+      color: var(--muted);
+      font-size: 0.82rem;
+      font-variant-numeric: tabular-nums;
+    }
+
+    button {
+      border: 0;
+      padding: 11px 13px;
+      color: var(--um-blue);
+      background: #eef2f5;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    button:hover,
+    button:focus-visible {
+      background: var(--um-maize);
+      outline: none;
+    }
+
+    .explain {
+      display: grid;
+      gap: 10px;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.55;
+    }
+
+    .legend {
+      display: grid;
+      gap: 8px;
+      margin-top: auto;
+      padding-top: 12px;
+      border-top: 1px solid rgba(0, 39, 76, 0.12);
+    }
+
+    .legend-row {
+      display: grid;
+      grid-template-columns: 28px 1fr;
+      gap: 10px;
+      align-items: center;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .sample {
+      height: 4px;
+      border-radius: 999px;
+    }
+
+    .sample.circle {
+      background: var(--circle);
+    }
+
+    .sample.inner {
+      background: var(--inner);
+    }
+
+    .sample.outer {
+      background: var(--outer);
+    }
+
+    .footer-note {
+      margin: 18px 0 0;
+      color: var(--muted);
+      font-size: 0.92rem;
+      line-height: 1.5;
+    }
+
+    @media (max-width: 860px) {
+      header,
+      .workspace {
+        grid-template-columns: 1fr;
+      }
+
+      header {
+        align-items: start;
+      }
+
+      .badge {
+        width: fit-content;
+      }
+
+      .svg-wrap {
+        min-height: 300px;
+      }
+    }
+
+    @media (max-width: 520px) {
+      main {
+        width: min(100vw - 20px, 1180px);
+        padding-top: 22px;
+      }
+
+      .estimate {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div>
+        <h1>Archimedes Traps Pi</h1>
+        <p class="dek">
+          Long before calculators, Archimedes surrounded a circle by two polygons.
+          One perimeter is too small, one is too large, and pi is forced to live between them.
+        </p>
+      </div>
+      <div class="badge">University of Michigan Robotics</div>
+    </header>
+
+    <section class="workspace" aria-label="Interactive Archimedes pi approximation">
+      <div class="visual">
+        <div class="svg-wrap">
+          <svg id="diagram" viewBox="-230 -230 460 460" role="img" aria-labelledby="diagram-title diagram-desc">
+            <title id="diagram-title">Inscribed and circumscribed polygons around a circle</title>
+            <desc id="diagram-desc">
+              A red circle is trapped between an inner blue polygon and an outer dark polygon.
+            </desc>
+            <g id="spokes"></g>
+            <polygon id="outerPolygon" fill="rgba(47, 47, 53, 0.06)" stroke="var(--outer)" stroke-width="5" stroke-linejoin="round"></polygon>
+            <polygon id="innerPolygon" fill="rgba(27, 102, 210, 0.08)" stroke="var(--inner)" stroke-width="5" stroke-linejoin="round"></polygon>
+            <circle id="circle" cx="0" cy="0" r="160" fill="none" stroke="var(--circle)" stroke-width="6"></circle>
+            <circle cx="0" cy="0" r="4" fill="var(--um-blue)"></circle>
+          </svg>
+        </div>
+      </div>
+
+      <aside class="controls">
+        <div class="slider-box">
+          <div class="slider-top">
+            <label for="sides">Number of polygon sides</label>
+            <output id="nValue" class="n-value" for="sides">12</output>
+          </div>
+          <input id="sides" type="range" min="0" max="1000" value="71" step="1">
+          <div class="scale-labels" aria-hidden="true">
+            <span>6</span>
+            <span>100</span>
+            <span>1,000</span>
+            <span>10,000</span>
+            <span>100,000</span>
+          </div>
+          <div class="actions" aria-label="Preset polygon sizes">
+            <button type="button" data-n="6">6 sides</button>
+            <button type="button" data-n="12">12 sides</button>
+            <button type="button" data-n="24">24 sides</button>
+            <button type="button" data-n="96">96 sides</button>
+            <button type="button" data-n="1000">1,000</button>
+            <button type="button" data-n="3000">3,000</button>
+            <button type="button" data-n="10000">10,000</button>
+            <button type="button" data-n="20000">20,000</button>
+            <button type="button" data-n="100000">100,000</button>
+          </div>
+        </div>
+
+        <div class="readout" aria-live="polite">
+          <div>
+            <div class="label">Archimedes' bounds</div>
+            <div id="bounds" class="bounds"></div>
+          </div>
+          <div class="estimate">
+            <div class="metric">
+              <span class="label">Midpoint estimate</span>
+              <strong id="estimate"></strong>
+            </div>
+            <div class="metric">
+              <span class="label">Error no larger than</span>
+              <strong id="error"></strong>
+            </div>
+          </div>
+        </div>
+
+        <div class="explain">
+          <p>
+            The blue polygon sits inside the circle, so its perimeter is too small.
+            The dark polygon sits outside the circle, so its perimeter is too large.
+          </p>
+          <p>
+            As the number of sides increases, the two perimeters squeeze pi from below and above.
+            For very large values, the picture is visually capped because the polygons are already
+            indistinguishable from the circle; the numerical bounds still use the displayed side count.
+          </p>
+        </div>
+
+        <div class="legend" aria-label="Diagram legend">
+          <div class="legend-row"><span class="sample circle"></span><span>Circle with diameter 1</span></div>
+          <div class="legend-row"><span class="sample inner"></span><span>Inscribed polygon: lower bound</span></div>
+          <div class="legend-row"><span class="sample outer"></span><span>Circumscribed polygon: upper bound</span></div>
+        </div>
+      </aside>
+    </section>
+
+    <p class="footer-note">
+      Formula used here: lower bound = n sin(pi/n), upper bound = n tan(pi/n).
+      No packages, servers, or downloads are required; this page runs entirely in the browser.
+    </p>
+  </main>
+
+  <script>
+    const slider = document.getElementById("sides");
+    const nValue = document.getElementById("nValue");
+    const innerPolygon = document.getElementById("innerPolygon");
+    const outerPolygon = document.getElementById("outerPolygon");
+    const spokes = document.getElementById("spokes");
+    const bounds = document.getElementById("bounds");
+    const estimate = document.getElementById("estimate");
+    const error = document.getElementById("error");
+    const buttons = document.querySelectorAll("button[data-n]");
+
+    const radius = 160;
+    const minSides = 6;
+    const maxSides = 100000;
+    const maxDrawnSides = 720;
+
+    function fmt(value) {
+      return value.toFixed(10).replace(/0+$/, "").replace(/\.$/, "");
+    }
+
+    function fmtInt(value) {
+      return value.toLocaleString("en-US");
+    }
+
+    function sliderToSides(value) {
+      const t = Number(value) / Number(slider.max);
+      const n = Math.exp(Math.log(minSides) + t * (Math.log(maxSides) - Math.log(minSides)));
+      return Math.max(minSides, Math.round(n));
+    }
+
+    function sidesToSlider(n) {
+      const t = (Math.log(n) - Math.log(minSides)) / (Math.log(maxSides) - Math.log(minSides));
+      return Math.round(Math.max(0, Math.min(1, t)) * Number(slider.max));
+    }
+
+    function polygonPoints(n, r, offset) {
+      const points = [];
+      for (let k = 0; k < n; k += 1) {
+        const angle = -Math.PI / 2 + offset + (2 * Math.PI * k) / n;
+        const x = r * Math.cos(angle);
+        const y = r * Math.sin(angle);
+        points.push(`${x.toFixed(3)},${y.toFixed(3)}`);
+      }
+      return points.join(" ");
+    }
+
+    function drawSpokes(n) {
+      spokes.innerHTML = "";
+      if (n > 12) return;
+
+      for (let k = 0; k < n; k += 1) {
+        const angle = -Math.PI / 2 + (2 * Math.PI * k) / n;
+        const x = radius * Math.cos(angle);
+        const y = radius * Math.sin(angle);
+        const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+        line.setAttribute("x1", "0");
+        line.setAttribute("y1", "0");
+        line.setAttribute("x2", x.toFixed(3));
+        line.setAttribute("y2", y.toFixed(3));
+        line.setAttribute("stroke", "rgba(0, 39, 76, 0.22)");
+        line.setAttribute("stroke-width", "2");
+        spokes.appendChild(line);
+      }
+    }
+
+    function update() {
+      const n = sliderToSides(slider.value);
+      const drawN = Math.min(n, maxDrawnSides);
+      const outerRadius = radius / Math.cos(Math.PI / drawN);
+      const lower = n * Math.sin(Math.PI / n);
+      const upper = n * Math.tan(Math.PI / n);
+      const mid = (lower + upper) / 2;
+      const err = (upper - lower) / 2;
+
+      nValue.textContent = fmtInt(n);
+      innerPolygon.setAttribute("points", polygonPoints(drawN, radius, 0));
+      outerPolygon.setAttribute("points", polygonPoints(drawN, outerRadius, Math.PI / drawN));
+      drawSpokes(drawN);
+
+      bounds.textContent = `${fmt(lower)} < pi < ${fmt(upper)}`;
+      estimate.textContent = fmt(mid);
+      error.textContent = fmt(err);
+    }
+
+    slider.addEventListener("input", update);
+    buttons.forEach((button) => {
+      button.addEventListener("click", () => {
+        slider.value = sidesToSlider(Number(button.dataset.n));
+        update();
+      });
+    });
+
+    update();
+  </script>
+</body>
+</html>
