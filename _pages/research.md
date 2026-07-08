@@ -21,6 +21,52 @@ The work also propagated through people and tools. Students and collaborators ex
 
 The research legacy I value most is this combination: a mathematical framework, physical demonstrations, open tools, and students and collaborators who carried the ideas beyond the original laboratory.
 
+<details markdown="1">
+<summary><strong>Read more: from nonlinear control to modern legged robotics</strong></summary>
+
+<table>
+  <tr>
+    <td style="width:50%;vertical-align:top;">
+      <img src="/images/RABBIT_in_air.jpg" alt="RABBIT walking experiment" style="width:100%;height:auto;">
+      <strong>RABBIT</strong><br>
+      A rigid, five-link, four-actuator planar biped for studying underactuation and impacts in walking.
+    </td>
+    <td style="width:50%;vertical-align:top;">
+      <img src="/images/mabel1-big.jpg" alt="MABEL with collaborators" style="width:100%;height:auto;">
+      <strong>MABEL</strong><br>
+      A compliant bipedal robot that connected HZD ideas to efficient walking and fast running.
+    </td>
+  </tr>
+  <tr>
+    <td style="width:50%;vertical-align:top;">
+      <img src="/images/slider/MARLO-wavefield-760x400.jpg" alt="MARLO walking outdoors on the Wave Field" style="width:100%;height:auto;">
+      <strong>MARLO</strong><br>
+      A 3D robot that moved the agenda from planar demonstrations toward outdoor walking.
+    </td>
+    <td style="width:50%;vertical-align:top;">
+      <img src="/images/slider/CassieSmoke2_760x400.jpg" alt="Cassie Blue walking through smoky terrain" style="width:100%;height:auto;">
+      <strong>Cassie Blue</strong><br>
+      A shared research platform where HZD-style controllers could be tested, compared, and extended.
+    </td>
+  </tr>
+</table>
+
+The contribution of Hybrid Zero Dynamics was not simply that it made robots walk. It gave underactuated walking a mathematical design language. Dynamic legged locomotion involves continuous motion, impacts, changing contacts, underactuation, and stability questions that do not fit neatly into linear time-invariant control. HZD made it possible to design virtual constraints, induce a lower-dimensional invariant dynamics, and analyze periodic motion with tools such as Poincare maps while still respecting the hybrid nature of walking.
+
+That framework mattered because it connected three worlds that are often separated: nonlinear control theory, numerical optimization, and hardware experiments. RABBIT showed that the ideas could survive contact with a physical underactuated robot. MABEL added compliance and dynamic running. MARLO moved toward 3D outdoor walking. Cassie Blue brought the methods onto a platform that many researchers could recognize, reproduce, and compare against.
+
+The later rise of optimization, model predictive control, reinforcement learning, and data-driven locomotion did not replace this earlier work so much as change the surrounding toolchain. Classical nonlinear control supplied structure: models, stability questions, phase variables, virtual constraints, reduced dynamics, and experimentally meaningful benchmarks. Learning-based methods then entered a field where researchers already had better ways to ask what a gait was, how to test it, and how to move from equations to hardware.
+
+In that sense, HZD belongs in the prehistory of modern learning-based legged locomotion. It did not cause the reinforcement-learning revolution, and it did not solve all of locomotion. But it helped make dynamic walking a rigorous engineering problem rather than a collection of impressive demonstrations. It showed that underactuation and impact could be embraced, not hidden, and that mathematical control design could produce controllers that worked on real robots.
+
+This line of work also turned papers into a research ecosystem. The 2007 book *Feedback Control of Dynamic Bipedal Robot Locomotion* organized hybrid models, periodic orbits, virtual constraints, feedback design, and experimental implementation into a form that students and researchers could learn from. Later tools such as FROST and C-FROST helped shorten the path from full-order models to optimized gaits. Students and collaborators carried the methods into new laboratories, newer robot platforms, perception and state estimation, humanoids, exoskeletons, and learning-enhanced locomotion.
+
+The translational thread is also real, though it should be stated with care. Work on lower-limb exoskeletons, including early control work connected to Wandercraft, drew on ideas developed for dynamic bipedal robots. The goal there was not a laboratory demonstration for its own sake, but self-balancing, hands-free locomotion in rehabilitation settings, including for people with paraplegia.
+
+The durable legacy is therefore not a single robot or a single theorem. It is a research pathway: from geometric nonlinear control to hybrid zero dynamics, from analysis to optimization, from simulation to hardware, and from model-based control to the learning-rich methods now shaping legged robotics.
+
+</details>
+
 *   [Papers on biped robots](/publications/robotics.html)
 *   [Early Videos Pre-YouTube](robot-videos.html)
 *   [Michigan Robotics: Dynamic Legged Locomotion YouTube Channel](http://www.youtube.com/user/DynamicLegLocomotion).
