@@ -127,7 +127,7 @@ Maintainer note: the master source for this schedule is ROB201_Fall2026_Source.t
     <div class="summary-grid" aria-label="Key resources">
       <div class="summary-card">
         <h2>Official PDF</h2>
-        <p><a href="https://umich.instructure.com/courses/865276/files/folder/Syllabus?preview=46527131">Printable course plan PDF</a></p>
+        <p><a href="https://umich.instructure.com/files/47242649/download?download_frd=1">Printable course plan PDF</a></p>
       </div>
       <div class="summary-card">
         <h2>Canvas</h2>
